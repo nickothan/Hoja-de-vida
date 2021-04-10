@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
     return (
-        <div classNameName="App">
-            <div classNameName="container">
+        <div className="App">
+            <div className="container">
                 <div className="datosBasicos">
                     <div className="img">
                         <img src="" alt="" />
@@ -13,13 +13,14 @@ function App() {
                         <h2>Developer Junior</h2>
                         <div className="infoDatosBasicos">
                             <div className="numeroDatosBasicos">
-                                <p>+57 3209317494</p>
+                                <i class="fas fa-mobile-alt"> +57 3209317494</i>
+                                <p></p>
                             </div>
                             <div className="emailDatosBasicos">
-                                <p>s1nicolasrg@gmail.com</p>
+                                <i class="fas fa-mail-bulk"> s1nicolasrg@gmail.com</i>
                             </div>
                             <div className="ubicacion">
-                                <p>Bogotá D.C - Colombia</p>
+                                <i class="fas fa-map-marker-alt"> Bogotá D.C - Colombia</i>
                             </div>
                         </div>
                     </div>
@@ -27,7 +28,7 @@ function App() {
                 <div className="contenido">
                     <div className="resumen">
                         <div className="tituloResumen">
-                            <h3>Resumen</h3>
+                            <h2>Resumen</h2>
                         </div>
                         <p>
                             Dinamico en el diseño y desarrollo de paginas web. Buena comunicacion
@@ -37,15 +38,15 @@ function App() {
                         </p>
                     </div>
                     <div className="educacion">
-                        <h3>Educacion</h3>
+                        <h2>Educacion</h2>
                         <ul>
                             <li>
-                                <p className="institucion">Suramerica Educacion Superior</p>
+                                <h3 className="institucion">Suramerica Educacion Superior</h3>
                                 <p className="fechaEducacion">2018</p>
                                 <p className="descripcionEstudio">Entrenamiento en programación</p>
                             </li>
                             <li>
-                                <p className="institucion">Uniminuto</p>
+                                <h3 className="institucion">Uniminuto</h3>
                                 <p className="fechaEducacion">2017- 2019(aplazado)</p>
                                 <p className="descripcionEstudio">
                                     tec. seg. redes y seg. informatica
@@ -55,7 +56,7 @@ function App() {
                     </div>
                     <div className="habilidades">
                         <div className="tituloHabilidades">
-                            <h3>Habilidades</h3>
+                            <h2>Habilidades</h2>
                         </div>
                         <ul>
                             <li>HTML5</li>
@@ -69,7 +70,7 @@ function App() {
                     </div>
                     <div className="sistemasOperativos">
                         <div className="tituloSO">
-                            <h3>Sistemas operativos</h3>
+                            <h2>Sistemas operativos</h2>
                         </div>
                         <ul>
                             <li>Windows</li>
@@ -79,6 +80,16 @@ function App() {
                             <li>Elastix</li>
                         </ul>
                     </div>
+                    <footer>
+                        <a href="https://github.com/nickothan">
+                            <h3>
+                                <i class="fab fa-github-square"> nickothan</i>
+                            </h3>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sergio-ramirez-/">
+                            <i class="fab fa-linkedin"> Sergio Ramirez</i>
+                        </a>
+                    </footer>
                 </div>
             </div>
         </div>

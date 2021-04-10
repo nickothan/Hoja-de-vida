@@ -1,3 +1,36 @@
+# Resume nico
+
+# Descripcion
+
+El presente proyecto muestra la experiencia de desarrollo desde su diseño,
+maquetacion, estilos, versionamiento y publicacion en servidor Online.
+Esto, con el fin de ser visto por las diferentes empresas que requieran un
+concepto practico basico sobre la aplicacion de conocimientos.
+
+# Uso
+
+Para poder ver el desarrollo ingrese a https://trabajo-resume-nico.netlify.app/
+en el cual podra ver la HV y podra descargar la misma en formato pdf.
+
+# Apoyo
+
+para mayor información pueden enviar un mensaje al perfil de linkedin
+https://www.linkedin.com/in/sergio-ramirez-
+
+# Autores y reconocimiento
+
+Sergio Ramirez.
+quiero expresar un profundo agradecimiento a mi hermano y mentor
+revi.r@outlook.com el cual me impulso y motivo a seguir adelante con los nuevos conocimientos y como aplicarlos.
+
+# licencia
+
+Este repositorio es de libre descarga como referencia del trabajo hecho
+
+# Estado del proyecto
+
+El proyecto esta en estado de desarrollo.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
