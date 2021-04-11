@@ -2,103 +2,36 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
 }
-a {
-    color: white;
+
+ul {
+    list-style-position: inside;
 }
+
+.App {
+    background-color: #ffbd4a;
+}
+
 .container {
     margin: auto;
-    width: 1024px;
-    background-color: royalblue;
+    width: 100%;
+    max-width: 768px;
+    background-color: #fff5e7;
     padding: 20px;
 }
-.datosBasicos {
+
+.rejilla {
     display: grid;
-    background-color: salmon;
-    grid-template-columns: 2fr 4fr;
-
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 3px solid #ffbd4a;
+    border-bottom: 3px solid #ffbd4a;
 }
 
-.datosBasicos img {
-    margin: 10px;
-    padding: 100px;
-    background-color: royalblue;
-    border-radius: 100%;
+.ladoIzq,
+.ladoDer {
+    padding: 15px;
 }
 
-.descipcionDatosBasicos {
-    display: grid;
-    grid-gap: 15px;
-}
-
-.infoDatosBasicos {
-    display: grid;
-    grid-gap: 10px;
-}
-
-.contenido {
-    margin: 10px 20px 10px 20px;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
-
-    grid-template-areas:
-        "resumen      resumen"
-        "habilidades SO"
-        "educacion   educacion"
-        "footer         footer";
-
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-}
-
-.resumen {
-    grid-area: resumen;
-    margin: 10px 0 10px 0;
-}
-.habilidades {
-    grid-area: habilidades;
-
-    display: grid;
-
-    justify-content: center;
-    text-align: center;
-}
-
-.sistemasOperativos {
-    grid-area: SO;
-
-    display: grid;
-
-    justify-content: center;
-    text-align: center;
-}
-
-.educacion {
-    margin: 10px 0 10px 0;
-    grid-area: educacion;
-    text-align: center;
-}
-.educacion ul {
-    padding: 10px 150px 10px 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-footer {
-    margin-top: 20px;
-    padding: 0 150px 0 150px;
-    grid-area: footer;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    justify-content: center;
-    align-items: center;
+.ladoIzq {
+    border-right: 3px solid #ffbd4a;
 }
