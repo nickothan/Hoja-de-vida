@@ -1,8 +1,8 @@
-import "./styles.css";
+import {MisHabilidades} from "./styles.js";
 
-export default function Habilidades() {
+export default function misHabilidades() {
     return (
-        <div className="habilidades">
+        <MisHabilidades>
             <div className="tituloHabilidades">
                 <h2>Habilidades</h2>
             </div>
@@ -15,6 +15,6 @@ export default function Habilidades() {
                 <li>Jquery</li>
                 <li>Ajax</li>
             </ul>
-        </div>
+        </MisHabilidades>
     );
 }

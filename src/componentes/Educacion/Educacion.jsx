@@ -1,4 +1,5 @@
-import "./styles.css";
+import "./styles.js";
+import {MiEducacion} from "./styles.js";
 
 const data = {
     institucion: [
@@ -25,15 +26,15 @@ function Institucion({nombre, fecha, descripcion}) {
     );
 }
 
-export default function Educacion() {
+export default function miEducacion() {
     return (
-        <div className="educacion">
+        <MiEducacion>
             <h2>Educacion</h2>
             <div className="instituciones">
                 {data.institucion.map((institucion) => (
                     <Institucion {...institucion} />
                 ))}
             </div>
-        </div>
+        </MiEducacion>
     );
 }
