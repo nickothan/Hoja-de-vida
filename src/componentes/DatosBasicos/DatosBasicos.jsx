@@ -1,8 +1,9 @@
-import "./styles.css";
+import "./styles.js";
+import {DatosBasicos} from "./styles.js";
 
 export default function Resume() {
     return (
-        <div className="datosBasicos">
+        <DatosBasicos>
             <div className="imgDatosBasicos">
                 <img src="" alt="Imagen usuario" />
             </div>
@@ -24,6 +25,6 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-        </div>
+        </DatosBasicos>
     );
 }

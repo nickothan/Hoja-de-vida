@@ -1,8 +1,8 @@
-import "./styles.css";
+import {MisSistemasOperativos} from "./styles.js";
 
 export default function SistemasOperativos() {
     return (
-        <div className="sistemasOperativos">
+        <MisSistemasOperativos>
             <div className="tituloSO">
                 <h2>Sistemas operativos</h2>
             </div>
@@ -13,6 +13,6 @@ export default function SistemasOperativos() {
                 <li>Kaly linux</li>
                 <li>Elastix</li>
             </ul>
-        </div>
+        </MisSistemasOperativos>
     );
 }

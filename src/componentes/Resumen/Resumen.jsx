@@ -1,8 +1,8 @@
-import "./styles.css";
+import {MiResumen} from "./styles.js";
 
 export default function Resumen() {
     return (
-        <div className="resumen">
+        <MiResumen>
             <div className="tituloResumen">
                 <h2>Resumen</h2>
             </div>
@@ -11,6 +11,6 @@ export default function Resumen() {
                 clientes. Coordinacion con equipos de trabajo remoto en sistemas de versionamiento
                 git/github. Diseñador de diagramas de flujo para la implementacion de sistemas.
             </p>
-        </div>
+        </MiResumen>
     );
 }
