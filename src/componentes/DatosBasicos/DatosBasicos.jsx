@@ -1,6 +1,8 @@
 import "./styles.js";
 import {DatosBasicos} from "./styles.js";
+
 import IconHV from "../assets/Captura.png";
+
 
 export default function Resume() {
     return (

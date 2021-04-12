@@ -15,6 +15,7 @@ export const DatosBasicos = styled.div`
 
     .imgDatosBasicos {
         margin: 10px;
+
         max-width: 200px;
         max-height: 200px;
         width: 100%;
@@ -25,6 +26,7 @@ export const DatosBasicos = styled.div`
             width: 100%;
             height: 100%;
         }
+
     }
 
     .titulosPrincipales {
