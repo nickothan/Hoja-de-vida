@@ -15,13 +15,18 @@ export const DatosBasicos = styled.div`
 
     .imgDatosBasicos {
         margin: 10px;
-        padding: 100px;
-        max-width: 50px;
-        max-height: 50px;
+
+        max-width: 200px;
+        max-height: 200px;
         width: 100%;
         height: 100%;
-        background-color: #cbcac8;
         border-radius: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
     }
 
     .titulosPrincipales {

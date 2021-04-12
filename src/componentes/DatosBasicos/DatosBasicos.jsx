@@ -1,11 +1,14 @@
 import "./styles.js";
 import {DatosBasicos} from "./styles.js";
 
+import IconHV from "../assets/Captura.png";
+
+
 export default function Resume() {
     return (
         <DatosBasicos>
             <div className="imgDatosBasicos">
-                <img src="" alt="Imagen usuario" />
+                <img src={IconHV} alt="Imagen usuario" />
             </div>
             <div className="descipcionDatosBasicos">
                 <div className="titulosPrincipales">
