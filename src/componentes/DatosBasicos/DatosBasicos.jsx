@@ -1,8 +1,10 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faMobileAlt, faEnvelopeSquare, faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons";
+
 import "./styles.js";
 import {DatosBasicos} from "./styles.js";
 
 import IconHV from "../assets/Captura.png";
-
 
 export default function Resume() {
     return (
@@ -17,14 +19,16 @@ export default function Resume() {
                 </div>
                 <div className="infoDatosBasicos">
                     <div className="numeroDatosBasicos">
-                        <i class="fas fa-mobile-alt"> +57 3209317494</i>
-                        <p></p>
+                        <FontAwesomeIcon icon={faMobileAlt} />
+                        <p>+57 3209317494</p>
                     </div>
                     <div className="emailDatosBasicos">
-                        <i class="fas fa-mail-bulk"> s1nicolasrg@gmail.com</i>
+                        <FontAwesomeIcon icon={faEnvelopeSquare} />
+                        <p>s1nicolasrg@gmail.com</p>
                     </div>
-                    <div className="ubicacion">
-                        <i class="fas fa-map-marker-alt"> Bogotá D.C - Colombia</i>
+                    <div className="ubicacionDatosBasicos">
+                        <FontAwesomeIcon icon={faMapMarkerAlt} />
+                        <p>Bogotá D.C - Colombia</p>
                     </div>
                 </div>
             </div>
