@@ -9,6 +9,7 @@ export const Main = styled.div`
         max-width: 768px;
         background-color: #fff5e7;
         padding: 20px;
+        box-sizing: border-box;
     }
 
     .rejilla {
@@ -30,5 +31,9 @@ export const Main = styled.div`
 
     .ladoIzq {
         border-right: 3px solid #ffbd4a;
+
+        @media (max-width: 425px) {
+            border: none;
+        }
     }
 `;

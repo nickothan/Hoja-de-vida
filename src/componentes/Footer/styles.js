@@ -5,7 +5,15 @@ export const Footer = styled.div`
     padding: 20px;
     justify-content: space-evenly;
 
-    footer a {
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
+    a {
+        display: flex;
         color: #333;
+        align-items: center;
+    }
+    h3 {
+        margin-left: 10px;
     }
 `;
