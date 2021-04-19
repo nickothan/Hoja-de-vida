@@ -26,7 +26,6 @@ export const DatosBasicos = styled.div`
             width: 100%;
             height: 100%;
         }
-
     }
 
     .titulosPrincipales {
@@ -42,5 +41,18 @@ export const DatosBasicos = styled.div`
     .infoDatosBasicos {
         display: grid;
         grid-gap: 10px;
+
+        @media (max-width: 425px) {
+            padding: 5px 15px;
+        }
+    }
+    .numeroDatosBasicos,
+    .emailDatosBasicos,
+    .ubicacionDatosBasicos {
+        display: flex;
+
+        p {
+            margin-left: 10px;
+        }
     }
 `;
