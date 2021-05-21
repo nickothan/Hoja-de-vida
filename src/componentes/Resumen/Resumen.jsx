@@ -1,16 +1,19 @@
-import {MiResumen} from "./styles.js";
+import { ResumeContainer } from "./styles.js";
 
 export default function Resumen() {
-    return (
-        <MiResumen>
-            <div className="tituloResumen">
-                <h2>Resumen</h2>
-            </div>
-            <p>
-                Dinamico en el diseño y desarrollo de paginas web. Buena comunicacion con los
-                clientes. Coordinacion con equipos de trabajo remoto en sistemas de versionamiento
-                git/github. Diseñador de diagramas de flujo para la implementacion de sistemas.
-            </p>
-        </MiResumen>
-    );
+  return (
+    <ResumeContainer>
+      <h2>Resumen</h2>
+
+      <br />
+      <p>
+        Soy un desarrollador de mente abierta, apasionado en diseñar, maquetar y
+        prototipar diferentes soluciones. He dedicado la mayor parte de mi
+        carrera al Front-end, estoy trabajando con react, tengo experiencia
+        desarrollando en java y PHP. con 4 años de experiencia en desarrollo
+        web. Estoy listo para nuevos desafios. Me encanta trabajar con grandes
+        personas, inspirar a otros y ser inspirado.
+      </p>
+    </ResumeContainer>
+  );
 }

@@ -1,1 +1,1 @@
-export {default} from "./Resumen";
+export { default } from "./Resumen";

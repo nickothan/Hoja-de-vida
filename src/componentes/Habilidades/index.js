@@ -1,1 +1,1 @@
-export {default} from "./Habilidades";
+export { default } from "./Habilidades";
