@@ -1,8 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileAlt, faEnvelopeSquare, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMobileAlt,
+  faEnvelopeSquare,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./styles.js";
-import { Container, Img, Content, Titulos, ContenInfo, InfoContainer } from "./styles.js";
+import {
+  Container,
+  Img,
+  Content,
+  Titulos,
+  ContenInfo,
+  InfoContainer,
+} from "./styles.js";
 
 import IconHV from "../assets/Captura.png";
 
@@ -43,10 +54,9 @@ export default function DatosBasicos() {
         </Titulos>
 
         <ContenInfo>
-          {infoContact.map((datos) => {
-            //console.log("datos: ", datos);
-            return <Info key={Math.random() * 10} datos={datos} />;
-          })}
+          {infoContact.map((datos) => (
+            <Info key={Math.random() * 10} datos={datos} />
+          ))}
         </ContenInfo>
       </Content>
     </Container>

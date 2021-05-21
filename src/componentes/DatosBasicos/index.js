@@ -1,1 +1,1 @@
-export {default} from "./DatosBasicos";
+export { default } from "./DatosBasicos";
