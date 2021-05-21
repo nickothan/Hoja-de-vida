@@ -1,11 +1,11 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import {Footer} from "./styles.js";
+import { FooterContainer } from "./styles.js";
 
 export default function Resume() {
     return (
-        <Footer>
+        <FooterContainer>
             <a href="https://github.com/nickothan">
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>nickothan</h3>
@@ -14,6 +14,6 @@ export default function Resume() {
                 <FontAwesomeIcon icon={faLinkedin} />
                 <h3>Sergio Ramirez</h3>
             </a>
-        </Footer>
+        </FooterContainer>
     );
 }

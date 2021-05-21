@@ -1,5 +1,5 @@
 import "./styles.js";
-import {MiEducacion} from "./styles.js";
+import { EducacionContetn, InstitucionContainer } from "./styles.js";
 
 const data = {
     institucion: [
@@ -16,25 +16,25 @@ const data = {
     ],
 };
 
-function Institucion({nombre, fecha, descripcion}) {
+function Institucion({ nombre, fecha, descripcion }) {
     return (
-        <div className="institucion">
-            <h3 className="nombreInstitucion">{nombre}</h3>
-            <p className="fechaEducacion">{fecha}</p>
-            <p className="descripcionEstudio">{descripcion}</p>
-        </div>
+        <InstitucionContainer>
+            <h3>{nombre}</h3>
+            <p>{fecha}</p>
+            <p>{descripcion}</p>
+        </InstitucionContainer>
     );
 }
 
 export default function miEducacion() {
     return (
-        <MiEducacion>
+        <EducacionContetn>
             <h2>Educacion</h2>
             <div className="instituciones">
                 {data.institucion.map((institucion) => (
-                    <Institucion {...institucion} />
+                    <Institucion key={Math.random() * 10} {...institucion} />
                 ))}
             </div>
-        </MiEducacion>
+        </EducacionContetn>
     );
 }

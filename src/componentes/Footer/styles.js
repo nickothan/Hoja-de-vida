@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Footer = styled.div`
+export const FooterContainer = styled.div`
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
@@ -10,8 +10,12 @@ export const Footer = styled.div`
     }
     a {
         display: flex;
-        color: #333;
+        color: #5a5ac7;
         align-items: center;
+
+        &:hover {
+            color: #3535bb;
+        }
     }
     h3 {
         margin-left: 10px;

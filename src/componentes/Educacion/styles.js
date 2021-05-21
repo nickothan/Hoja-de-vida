@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const MiEducacion = styled.div`
-    border-bottom: 3px solid #ffbd4a;
+export const EducacionContetn = styled.div`
+    border-bottom: 3px solid #ffebc9;
     padding-bottom: 25px;
+`;
 
-    .institucion {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
+export const InstitucionContainer = styled.div`
+    padding-bottom: 10px;
+    padding-top: 10px;
 `;

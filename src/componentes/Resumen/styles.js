@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const MiResumen = styled.div`
-    border-bottom: 3px solid #ffbd4a;
+export const ResumeContainer = styled.div`
+    border-bottom: 3px solid #ffebc9;
     padding-bottom: 25px;
 
     p {
