@@ -1,19 +1,23 @@
 import styled from "styled-components";
 
-export const Footer = styled.div`
-    display: flex;
-    padding: 20px;
-    justify-content: space-evenly;
+export const FooterContainer = styled.div`
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
 
-    @media (max-width: 425px) {
-        flex-direction: column;
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
+  a {
+    display: flex;
+    color: #5a5ac7;
+    align-items: center;
+
+    &:hover {
+      color: #3535bb;
     }
-    a {
-        display: flex;
-        color: #333;
-        align-items: center;
-    }
-    h3 {
-        margin-left: 10px;
-    }
+  }
+  h3 {
+    margin-left: 10px;
+  }
 `;
