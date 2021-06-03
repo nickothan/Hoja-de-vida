@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Basicos",
+    "items": [
+      {
+        "item": "HTML",
+        "time": "3"
+      },
+      {
+        "item": "CSS",
+        "time": "3"
+      },
+      {
+        "item": "JavaScript",
+        "time": "2"
+      }
+    ]
+  },
+  {
+    "title": "Framework",
+    "items": [
+      {
+        "item": "React",
+        "time": "1"
+      }
+    ]
+  },
+  {
+    "title": "Diseño",
+    "items": [
+      {
+        "item": "Adobe XD",
+        "time": "2"
+      }
+    ]
+  },
+  {
+    "title": "Bonus",
+    "items": [
+      {
+        "item": "Responsive",
+        "time": "3"
+      },
+      {
+        "item": "Redux",
+        "time": "1"
+      },
+      {
+        "item": "SCSS",
+        "time": "1"
+      },
+      {
+        "item": "TypeScript",
+        "time": "1"
+      },
+      {
+        "item": "JQery",
+        "time": "2"
+      },
+      {
+        "item": "Ajax",
+        "time": "1"
+      }
+    ]
+  },
+  {
+    "title": "Herramientas",
+    "items": [
+      {
+        "item": "Visual Code Studio",
+        "time": "3"
+      },
+      {
+        "item": "Git",
+        "time": "2"
+      },
+      {
+        "item": "Github",
+        "time": "2"
+      },
+      {
+        "item": "NodeJs",
+        "time": "1"
+      }
+    ]
+  }
+]

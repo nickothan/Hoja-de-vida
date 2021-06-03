@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 
-export const Container = styled.div`
+export const DatosBasicosContainer = styled.div`
   padding-bottom: 30px;
   display: grid;
   grid-template-columns: 2fr 4fr;
@@ -24,8 +24,9 @@ export const Img = styled.div`
   border-radius: 100%;
 
   img {
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: auto;
+    border-radius: 100%;
   }
 `;
 
@@ -36,7 +37,7 @@ export const Content = styled.div`
 
 export const Titulos = styled.div`
   padding-left: 10px;
-  border-left: 8px solid #ffebc9;
+  border-left: 8px solid #dfdfff;
 `;
 
 export const ContenInfo = styled.ul`

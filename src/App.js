@@ -2,7 +2,7 @@ import DatosBasicos from "./componentes/DatosBasicos";
 import Resumen from "./componentes/Resumen";
 import Experiencia from "./componentes/Experiencia";
 import Educacion from "./componentes/Educacion";
-import Habilidades from "./componentes/Habilidades";
+import Proyectos from "./componentes/Proyectos";
 import Footer from "./componentes/Footer";
 
 import { AppContainer } from "./styles.js";
@@ -15,11 +15,11 @@ function App() {
         <div className="rejilla">
           <div className="ladoIzq">
             <Resumen />
-            <Experiencia />
+            <Educacion />
           </div>
           <div className="ladoDer">
-            <Educacion />
-            <Habilidades />
+            <Proyectos />
+            <Experiencia />
           </div>
         </div>
         <Footer />
