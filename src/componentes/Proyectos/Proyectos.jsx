@@ -24,7 +24,7 @@ export default function Proyectos() {
       <li>
         <LinkContainer>
           <LinkIcon />
-          <a href={e.link} target="_blank">
+          <a href={e.link} target="_blank" rel="noreferrer">
             <span>{e.title}</span>
           </a>
         </LinkContainer>

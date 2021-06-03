@@ -8,11 +8,11 @@ export default function Footer() {
     <FooterContainer>
       <a href="https://github.com/nickothan">
         <FontAwesomeIcon icon={faGithub} />
-        <h3>nickothan</h3>
+        <span>nickothan</span>
       </a>
       <a href="https://www.linkedin.com/in/sergio-ramirez-/">
         <FontAwesomeIcon icon={faLinkedin} />
-        <h3>Sergio Ramirez</h3>
+        <span>Sergio Ramirez</span>
       </a>
     </FooterContainer>
   );
