@@ -7,7 +7,7 @@ import {
 
 import "./styles.js";
 import {
-  Container,
+  DatosBasicosContainer,
   Img,
   Content,
   Titulos,
@@ -43,7 +43,7 @@ const Info = ({ datos: { icon, title } }) => {
 
 export default function DatosBasicos() {
   return (
-    <Container>
+    <DatosBasicosContainer>
       <Img>
         <img src={IconHV} alt="Imagen usuario" />
       </Img>
@@ -59,6 +59,6 @@ export default function DatosBasicos() {
           ))}
         </ContenInfo>
       </Content>
-    </Container>
+    </DatosBasicosContainer>
   );
 }
