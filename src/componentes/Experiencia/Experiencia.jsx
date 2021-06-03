@@ -1,43 +1,55 @@
 import { ExperienciaContent } from "./styles.js";
 
-export default function SistemasOperativos() {
-  const experiencias = [
-    {
-      title: "Tic-Tac-Toe",
-      desctipcion:
-        "Juego tic-tac-toe elaborado en react.js  para dos jugadores, X y O, que toman turnos marcando los espacios en una cuadrícula de 3 × 3. El jugador que logre colocar tres marcas respectivas en una fila horizontal, vertical o diagonal gana el juego.",
-      link: "https://tic-tac-toe-nico.netlify.app/",
-    },
-    {
-      title: "To Do",
-      desctipcion:
-        "Es una herramienta sencilla e intuitiva que te permite apuntar rapidamente tareas para completarlas luego.",
-      link: "https://master-to-do-list.netlify.app/",
-    },
-  ];
+// import data from "./Data.json";
 
-  function Institucion(e) {
-    //console.log("Experinence: ", e);
-    return (
-      <li>
-        <h4>{e.title}</h4>
-        <p>{e.desctipcion}</p>
-        <a href={e.link}>{e.link}</a>
-      </li>
-    );
-  }
+export default function Experiencia() {
   return (
     <ExperienciaContent>
-      <div className="tituloSO">
-        <h2>Proyectos</h2>
-      </div>
+      <h2>Experiencia</h2>
       <br />
+
       <ul>
-        {experiencias.map((e) => {
-          //console.log("e: ", e);
-          return <Institucion key={Math.random() * 10} {...e} />;
-        })}
+        <li>
+          <span>HTML</span>
+          <span>3 años</span>
+        </li>
+        <li>
+          <span>CSS</span>
+          <span>3 años</span>
+        </li>
+        <li>
+          <span>SCSS</span>
+          <span>2 años</span>
+        </li>
+        <li>
+          <span>React</span>
+          <span>1 año</span>
+        </li>
+        <li>
+          <span>Redux</span>
+          <span>1 año</span>
+        </li>
+        <li>
+          <span>Git</span>
+          <span>2 años</span>
+        </li>
       </ul>
+
+      {/*data.map(({ title, items }) => {
+        return (
+          <ul>
+            <h5>{title}</h5>
+            {items.map(({ item, time }) => {
+              return (
+                <li key={Math.random() * 10}>
+                  <span>{item}</span>
+                  <span>{` ${time} ${time === 1 ? "año" : "años"}`}</span>
+                </li>
+              );
+            })}
+          </ul>
+        );
+      })*/}
     </ExperienciaContent>
   );
 }

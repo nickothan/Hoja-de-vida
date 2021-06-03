@@ -1,3 +1,6 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
@@ -21,3 +24,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+a {
+  color: #9797fd;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  transition-duration: 350ms;
+  
+
+  &:hover {
+    font-weight: 800;
+    
+  }
+}
+
+
+`;
+export default GlobalStyle;

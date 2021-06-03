@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  border-bottom: 3px solid #ffebc9;
-  padding-bottom: 25px;
+  padding-top: 25px;
 `;
 
 export const InstitucionContainer = styled.div`
