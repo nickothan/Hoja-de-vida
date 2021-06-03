@@ -1,23 +1,22 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 export const ExperienciaContent = styled.div`
-  padding-top: 10px;
+  border-top: 3px solid #dfdfff;
+  padding-top: 25px;
+
+  ul {
+    list-style: none;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    margin: 10px 0;
+  }
 
   li {
-    list-style: none;
-    margin-bottom: 30px;
-  }
-
-  h4 {
-    margin-bottom: 2px;
-  }
-
-  a {
-    display: block;
-    margin-top: 7px;
-
-    &:hover {
-      color: #3535bb;
-    }
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    margin-bottom: 7px;
   }
 `;
