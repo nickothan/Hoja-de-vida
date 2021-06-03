@@ -1,6 +1,6 @@
 import { ExperienciaContent } from "./styles.js";
 
-import data from "./Data.json";
+// import data from "./Data.json";
 
 export default function Experiencia() {
   return (

@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 
 export const AppContainer = styled.div`
   display: flex;
-  background-color: #fdf9f3;
+  background-color: #f5f4ff;
   color: #676573;
 
   .container {

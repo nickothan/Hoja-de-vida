@@ -11,15 +11,6 @@ export const ExperienciaContent = styled.div`
   h4 {
     margin-bottom: 2px;
   }
-
-  a {
-    display: block;
-    margin-top: 7px;
-
-    &:hover {
-      color: #3535bb;
-    }
-  }
 `;
 
 export const LinkContainer = styled.div`
@@ -36,14 +27,7 @@ export const LinkContainer = styled.div`
   }
 
   a {
-    height: 20px;
-    line-height: 15px;
-    font-weight: 600;
     margin-left: 10px;
-
-    &:visited {
-      color: #6658dd;
-    }
   }
 
   svg {

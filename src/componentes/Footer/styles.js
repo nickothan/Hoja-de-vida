@@ -1,23 +1,16 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  display: flex;
-  padding: 20px;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 20px 7px;
+  justify-items: center;
 
   @media (max-width: 425px) {
     flex-direction: column;
   }
-  a {
-    display: flex;
-    color: #5a5ac7;
-    align-items: center;
 
-    &:hover {
-      color: #3535bb;
-    }
-  }
-  h3 {
+  span {
     margin-left: 10px;
   }
 `;
