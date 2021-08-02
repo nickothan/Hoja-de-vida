@@ -5,6 +5,7 @@ import { ExperienciaContent } from './styles.js'
 //* CN-7: integrar scss y styled components a css
 //TODO CN-8: Estilos para la sublista
 //TODO CN-9: integrar jquery, react y typescript a javascript
+//TODO cn-10: agregar stoorybook
 
 export default function Experiencia() {
   return (
