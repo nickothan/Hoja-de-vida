@@ -2,7 +2,7 @@ import { ExperienciaContent } from './styles.js'
 
 // import data from "./Data.json";
 
-//TODO CN-7: integrar scss y styled components a css
+//* CN-7: integrar scss y styled components a css
 //TODO CN-8: Estilos para la sublista
 //TODO CN-9: integrar jquery, react y typescript a javascript
 
@@ -11,7 +11,6 @@ export default function Experiencia() {
     <ExperienciaContent>
       <h2>Experiencia</h2>
       <br />
-
       <ul>
         <li>
           <span>HTML</span>
@@ -24,6 +23,16 @@ export default function Experiencia() {
         <li>
           <span>SCSS</span>
           <span>2 años</span>
+          <ul>
+            <li>
+              <span>SCSS</span>
+              <span>1 años</span>
+            </li>
+            <li>
+              <span>Styled Components</span>
+              <span>6 meses</span>
+            </li>
+          </ul>
         </li>
         <li>
           <span>React</span>
