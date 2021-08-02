@@ -4,7 +4,7 @@ import { ExperienciaContent } from './styles.js'
 
 //* CN-7: integrar scss y styled components a css
 //TODO CN-8: Estilos para la sublista
-//TODO CN-9: integrar jquery, react y typescript a javascript
+//* CN-9: integrar jquery, react y typescript a javascript
 //TODO cn-10: agregar stoorybook
 
 export default function Experiencia() {
@@ -20,10 +20,6 @@ export default function Experiencia() {
         <li>
           <span>CSS</span>
           <span>3 años</span>
-        </li>
-        <li>
-          <span>SCSS</span>
-          <span>2 años</span>
           <ul>
             <li>
               <span>SCSS</span>
@@ -31,17 +27,27 @@ export default function Experiencia() {
             </li>
             <li>
               <span>Styled Components</span>
-              <span>6 meses</span>
+              <span>1 año</span>
             </li>
           </ul>
         </li>
         <li>
-          <span>React</span>
+          <span>JavaScript</span>
           <span>1 año</span>
-        </li>
-        <li>
-          <span>Redux</span>
-          <span>1 año</span>
+          <ul>
+            <li>
+              <span>Jquery</span>
+              <span>2 años</span>
+            </li>
+            <li>
+              <span>React</span>
+              <span>1 año</span>
+            </li>
+            <li>
+              <span>TypeScript</span>
+              <span>1 año</span>
+            </li>
+          </ul>
         </li>
         <li>
           <span>Git</span>
