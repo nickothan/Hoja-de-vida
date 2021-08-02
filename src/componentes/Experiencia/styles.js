@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from 'styled-components/macro'
 
 export const ExperienciaContent = styled.div`
   border-top: 3px solid #dfdfff;
@@ -19,4 +19,4 @@ export const ExperienciaContent = styled.div`
     grid-template-columns: 1fr 100px;
     margin-bottom: 7px;
   }
-`;
+`

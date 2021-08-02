@@ -1,6 +1,10 @@
-import { ExperienciaContent } from "./styles.js";
+import { ExperienciaContent } from './styles.js'
 
 // import data from "./Data.json";
+
+//TODO CN-7: integrar scss y styled components a css
+//TODO CN-8: Estilos para la sublista
+//TODO CN-9: integrar jquery, react y typescript a javascript
 
 export default function Experiencia() {
   return (
@@ -51,5 +55,5 @@ export default function Experiencia() {
         );
       })*/}
     </ExperienciaContent>
-  );
+  )
 }
