@@ -33,7 +33,7 @@ export default function Experiencia() {
         <li>
           <div>
             <span>JavaScript</span>
-            <span>3 año</span>
+            <span>3 años</span>
           </div>
           <ul>
             <li>
