@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faMobileAlt,
   faEnvelopeSquare,
   faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons'
