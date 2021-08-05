@@ -18,12 +18,14 @@ export default function Experiencia() {
           <span>3 años</span>
         </li>
         <li>
-          <span>CSS</span>
-          <span>3 años</span>
+          <div>
+            <span>CSS</span>
+            <span>3 años</span>
+          </div>
           <ul>
             <li>
               <span>SCSS</span>
-              <span>1 años</span>
+              <span>2 años</span>
             </li>
             <li>
               <span>Styled Components</span>
@@ -32,8 +34,10 @@ export default function Experiencia() {
           </ul>
         </li>
         <li>
-          <span>JavaScript</span>
-          <span>1 año</span>
+          <div>
+            <span>JavaScript</span>
+            <span>3 año</span>
+          </div>
           <ul>
             <li>
               <span>Jquery</span>
