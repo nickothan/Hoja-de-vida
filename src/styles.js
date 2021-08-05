@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from 'styled-components/macro'
 
 export const AppContainer = styled.div`
   display: flex;
@@ -29,7 +29,7 @@ export const AppContainer = styled.div`
     border-top: 3px solid #dfdfff;
     border-bottom: 3px solid #dfdfff;
 
-    @media (max-width: 425px) {
+    @media (max-width: 767px) {
       display: flex;
       flex-direction: column;
     }
@@ -43,8 +43,14 @@ export const AppContainer = styled.div`
   .ladoIzq {
     border-right: 3px solid #dfdfff;
 
-    @media (max-width: 425px) {
+    @media (max-width: 767px) {
       border: none;
     }
   }
-`;
+
+  .ladoDer {
+    @media (max-width: 767px) {
+      border-top: 3px solid #dfdfff;
+    }
+  }
+`
