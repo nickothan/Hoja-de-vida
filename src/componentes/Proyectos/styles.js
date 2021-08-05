@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ExperienciaContent = styled.div`
   padding-top: 10px;
@@ -11,7 +11,7 @@ export const ExperienciaContent = styled.div`
   h4 {
     margin-bottom: 2px;
   }
-`;
+`
 
 export const LinkContainer = styled.div`
   display: inline-flex;
@@ -34,4 +34,4 @@ export const LinkContainer = styled.div`
     fill: #6658dd;
     color: #6658dd;
   }
-`;
+`
