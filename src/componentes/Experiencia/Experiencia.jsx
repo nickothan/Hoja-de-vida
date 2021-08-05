@@ -14,8 +14,10 @@ export default function Experiencia() {
       <br />
       <ul>
         <li>
-          <span>HTML</span>
-          <span>3 años</span>
+          <div>
+            <span>HTML</span>
+            <span>3 años</span>
+          </div>
         </li>
         <li>
           <div>
@@ -54,8 +56,10 @@ export default function Experiencia() {
           </ul>
         </li>
         <li>
-          <span>Git</span>
-          <span>2 años</span>
+          <div>
+            <span>Git</span>
+            <span>2 años</span>
+          </div>
         </li>
       </ul>
 
