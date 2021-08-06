@@ -20,8 +20,9 @@ export default function ExpLaboral() {
       </LinkContainer>
       <Date>MAR-2021</Date>
       <p>
-        Maintenance and updates of designs, layouts and animations of forms.
-        Creation and update of components for frontend.
+        Maintenance and updates of designs, layouts and animations of web pages.
+        Create environments, create structures for isolates components in
+        modular development compositions and update UI components.
       </p>
       <Skills>
         HTML, CSS3, JQuery, TypeScript, react, styled components, storybook
