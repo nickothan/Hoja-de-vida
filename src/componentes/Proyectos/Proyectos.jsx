@@ -7,7 +7,9 @@ export default function Proyectos() {
     {
       title: 'Tic-Tac-Toe',
       desctipcion:
-        'Tic-tac-toe game elaborated in react.js for two players, X and O, who take turns marking the spaces in a 3 × 3 grid. The player who manages to place three respective marks in a horizontal, vertical or diagonal row wins the game.',
+
+        'Tic-tac-toe is a game builded with react.js where two players can play using X and O, each turn have to mark with the icon in the space on a 3 × 3 grid. The player who has three respective marks in a horizontal, vertical or diagonal line wins the game.',
+
       link: 'https://tic-tac-toe-nico.netlify.app/'
     },
     {
