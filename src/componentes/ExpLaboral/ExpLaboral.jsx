@@ -6,7 +6,7 @@ import { ReactComponent as LinkIcon } from '../assets/link.svg'
 export default function ExpLaboral() {
   return (
     <ExpLabContainer>
-      <h2>Experiencia Laboral</h2>
+      <h2>Work experience</h2>
       <br />
 
       <LinkContainer>
@@ -20,8 +20,8 @@ export default function ExpLaboral() {
       </LinkContainer>
       <Date>MAR-2021</Date>
       <p>
-        Mantenimiento y actualizaciones de diseños, maquetados y animaciones de
-        formularios. Creacion y actualizacion de componentes para frontend.
+        Maintenance and updates of designs, layouts and animations of forms.
+        Creation and update of components for frontend.
       </p>
       <Skills>
         HTML, CSS3, JQuery, TypeScript, react, styled components, storybook
