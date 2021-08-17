@@ -4,6 +4,7 @@ import Experiencia from './componentes/Experiencia'
 import ExpLaboral from './componentes/ExpLaboral'
 import Educacion from './componentes/Educacion'
 import Proyectos from './componentes/Proyectos'
+import Articulos from './componentes/Articulos'
 import Footer from './componentes/Footer'
 
 import { AppContainer } from './styles.js'
@@ -24,6 +25,7 @@ function App() {
             <Experiencia />
           </div>
         </div>
+        <Articulos />
         <Footer />
         <div className='contenido'></div>
       </div>
