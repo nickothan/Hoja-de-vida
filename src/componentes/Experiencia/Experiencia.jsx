@@ -2,6 +2,11 @@ import { ExperienciaContent } from './styles.js'
 
 // import data from "./Data.json";
 
+//* CN-7: integrar scss y styled components a css
+//TODO CN-8: Estilos para la sublista
+//* CN-9: integrar jquery, react y typescript a javascript
+//TODO cn-10: agregar stoorybook
+
 export default function Experiencia() {
   return (
     <ExperienciaContent>
@@ -53,6 +58,7 @@ export default function Experiencia() {
         <li>
           <div>
             <span>Git</span>
+
             <span>2 years</span>
           </div>
         </li>
