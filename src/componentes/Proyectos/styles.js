@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+
+import styled from 'styled-components/macro'
 
 export const ExperienciaContent = styled.div`
   padding-top: 10px;
@@ -21,7 +22,10 @@ export const LinkContainer = styled.div`
 
   cursor: pointer;
 
+  animation-timing-function: linear;
+
   &:hover {
+    font-weight: 600;
     color: #6658dd;
     background-color: #6658dd21;
   }

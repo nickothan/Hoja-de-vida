@@ -7,13 +7,13 @@ export default function Proyectos() {
     {
       title: 'Tic-Tac-Toe',
       desctipcion:
-        'Juego tic-tac-toe elaborado en react.js  para dos jugadores, X y O, que toman turnos marcando los espacios en una cuadrícula de 3 × 3. El jugador que logre colocar tres marcas respectivas en una fila horizontal, vertical o diagonal gana el juego.',
+        'Tic-tac-toe is a game builded with react.js where two players can play using X and O, each turn have to mark with the icon in the space on a 3 × 3 grid. The player who has three respective marks in a horizontal, vertical or diagonal line wins the game.',
       link: 'https://tic-tac-toe-nico.netlify.app/'
     },
     {
       title: 'To Do',
       desctipcion:
-        'Es una herramienta sencilla e intuitiva que te permite apuntar rapidamente tareas para completarlas luego.',
+        'It is a simple and intuitive tool that allows you to quickly jot down tasks to complete later.',
       link: 'https://master-to-do-list.netlify.app/'
     }
   ]
@@ -35,7 +35,7 @@ export default function Proyectos() {
   return (
     <ExperienciaContent>
       <div className='tituloSO'>
-        <h2>Proyectos</h2>
+        <h2>Proyects</h2>
       </div>
       <br />
       <ul>

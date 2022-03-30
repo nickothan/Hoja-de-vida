@@ -1,19 +1,21 @@
-import { ResumeContainer } from "./styles.js";
+import { ResumeContainer } from './styles.js'
 
 export default function Resumen() {
   return (
     <ResumeContainer>
-      <h2>Resumen</h2>
+      <h2>summary</h2>
 
       <br />
       <p>
-        Soy un desarrollador de mente abierta, apasionado en diseñar, maquetar y
-        prototipar diferentes soluciones. He dedicado la mayor parte de mi
-        carrera al Front-end, estoy trabajando con react, tengo experiencia
-        desarrollando en java y PHP. con 4 años de experiencia en desarrollo
-        web. Estoy listo para nuevos desafios. Me encanta trabajar con grandes
-        personas, inspirar a otros y ser inspirado.
+        I am an open-minded developer, passionate about designing, layout, and
+
+        prototype different solutions. I dedicated most of the time in
+        Front-end, I'm working with react, I have experience developing in java
+        and PHP. with 3 years of development carrer. I am ready for new
+        challenges. I love working with great people, inspire others and be
+
+        inspired.
       </p>
     </ResumeContainer>
-  );
+  )
 }
