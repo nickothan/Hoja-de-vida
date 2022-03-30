@@ -1,3 +1,4 @@
+
 import { Container } from "./styles";
 
 window.onload = function () {
@@ -11,6 +12,7 @@ window.onload = function () {
     }, 1000);
   }, 1500);
 };
+
 const Log = () => (
   <Container id="ContenedorLog">
     <p id="textLog">Login...</p>
@@ -19,3 +21,4 @@ const Log = () => (
 );
 
 export default Log;
+

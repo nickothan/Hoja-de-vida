@@ -25,5 +25,7 @@ export default function Articulos() {
         <p>05-08-2021</p>
       </ArticuloContent>
     </ArticulosContauler>
+
   );
+
 }

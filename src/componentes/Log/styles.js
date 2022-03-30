@@ -36,3 +36,4 @@ export const Container = styled.div`
     border-left: 10px solid #dfdfff;
   }
 `;
+

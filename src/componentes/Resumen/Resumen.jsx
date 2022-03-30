@@ -1,4 +1,4 @@
-import { ResumeContainer } from "./styles.js";
+import { ResumeContainer } from './styles.js'
 
 export default function Resumen() {
   return (
@@ -16,5 +16,5 @@ export default function Resumen() {
         availability of my team's products.
       </p>
     </ResumeContainer>
-  );
+  )
 }

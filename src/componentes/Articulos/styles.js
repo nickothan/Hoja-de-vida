@@ -1,12 +1,16 @@
+
 import styled from "styled-components/macro";
 
 import { LinkContainer } from "../Proyectos/styles";
+
 
 export const ArticulosContauler = styled.div`
   padding: 15px;
 
   border-bottom: 3px solid #dfdfff;
+
 `;
+
 export const ArticuloContent = styled.div`
   padding: 10px 0;
 
@@ -17,3 +21,4 @@ export const ArticuloContent = styled.div`
 export const LinkContainerArticle = styled(LinkContainer)`
   margin-bottom: 0;
 `;
+

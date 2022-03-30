@@ -1,9 +1,10 @@
-import "./styles.js";
-import { Container, InstitucionContainer } from "./styles.js";
+import './styles.js'
+import { Container, InstitucionContainer } from './styles.js'
 
 const data = {
   institucion: [
     {
+
       nombre: "Suramerica Educacion Superior",
       fecha: "2018",
       descripcion: "Programming training",
@@ -16,6 +17,7 @@ const data = {
   ],
 };
 
+
 function Institucion({ nombre, fecha, descripcion }) {
   return (
     <InstitucionContainer>
@@ -23,7 +25,7 @@ function Institucion({ nombre, fecha, descripcion }) {
       <p>{fecha}</p>
       <p>{descripcion}</p>
     </InstitucionContainer>
-  );
+  )
 }
 
 export default function miEducacion() {
@@ -31,10 +33,11 @@ export default function miEducacion() {
     <Container>
       <h2>Education</h2>
       <div className="instituciones">
+
         {data.institucion.map((institucion) => (
           <Institucion key={Math.random() * 10} {...institucion} />
         ))}
       </div>
     </Container>
-  );
+  )
 }
