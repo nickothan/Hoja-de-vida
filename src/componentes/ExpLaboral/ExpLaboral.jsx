@@ -1,7 +1,7 @@
-import { ExpLabContainer, Date, Skills } from './styles'
+import { ExpLabContainer, Date, Skills } from "./styles";
 
-import { LinkContainer } from '../Proyectos/styles'
-import { ReactComponent as LinkIcon } from '../assets/link.svg'
+import { LinkContainer } from "../Proyectos/styles";
+import { ReactComponent as LinkIcon } from "../assets/link.svg";
 
 export default function ExpLaboral() {
   return (
@@ -11,9 +11,10 @@ export default function ExpLaboral() {
       <LinkContainer>
         <LinkIcon />
         <a
-          href='https://www.linkedin.com/company/revdevar/about/'
-          target='_blank'
-          rel='noreferrer'>
+          href="https://www.linkedin.com/company/revdevar/about/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span>Rev Dev</span>
         </a>
       </LinkContainer>
@@ -27,5 +28,5 @@ export default function ExpLaboral() {
         HTML, CSS3, JQuery, TypeScript, react, styled components, storybook
       </Skills>
     </ExpLabContainer>
-  )
+  );
 }

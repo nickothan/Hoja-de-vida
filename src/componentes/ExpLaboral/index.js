@@ -1,1 +1,1 @@
-export { default } from './ExpLaboral'
+export { default } from "./ExpLaboral";

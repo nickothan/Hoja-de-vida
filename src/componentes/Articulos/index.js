@@ -1,1 +1,3 @@
-export { default } from './Articulos'
+
+export { default } from "./Articulos";
+
