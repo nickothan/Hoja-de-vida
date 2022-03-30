@@ -1,4 +1,4 @@
-import { ResumeContainer } from './styles.js'
+import { ResumeContainer } from "./styles.js";
 
 export default function Resumen() {
   return (
@@ -7,15 +7,14 @@ export default function Resumen() {
 
       <br />
       <p>
-        I am an open-minded developer, passionate about designing, layout, and
-
-        prototype different solutions. I dedicated most of the time in
-        Front-end, I'm working with react, I have experience developing in java
-        and PHP. with 3 years of development carrer. I am ready for new
-        challenges. I love working with great people, inspire others and be
-
-        inspired.
+        As a front-end engineer, I use my web development experience to create
+        beautiful web user interfaces for our clients. I work in a cooperative
+        team environment and enjoy solving complex and ambiguous problems.
+        Collaborate with other engineers, product managers, and UX designers
+        across the organization. I enhance our operational excellence by
+        continually measuring and improving the performance, security, and
+        availability of my team's products.
       </p>
     </ResumeContainer>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { ExperienciaContent } from './styles.js'
+import { ExperienciaContent } from "./styles.js";
 
 // import data from "./Data.json";
 
@@ -80,5 +80,5 @@ export default function Experiencia() {
         );
       })*/}
     </ExperienciaContent>
-  )
+  );
 }

@@ -1,1 +1,1 @@
-export { default } from './LinkContainer'
+export { default } from "./LinkContainer";

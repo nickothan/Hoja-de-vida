@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro'
+import styled from "styled-components/macro";
 
 export const ExperienciaContent = styled.div`
   border-top: 3px solid #dfdfff;
@@ -30,4 +30,4 @@ export const ExperienciaContent = styled.div`
     margin-top: 3px;
     max-width: 100%;
   }
-`
+`;

@@ -1,4 +1,4 @@
-import { keyframes } from "styled-components"
+import { keyframes } from "styled-components";
 
 export const rotate = keyframes`
   from {
@@ -8,4 +8,4 @@ export const rotate = keyframes`
   to {
     transform: rotate(360deg);
   }
-`
+`;

@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-import { rotate } from "../shared/Animations/Styles"
+import { rotate } from "../shared/Animations/Styles";
 
 export const Container = styled.div`
   position: fixed;
@@ -35,4 +35,4 @@ export const Container = styled.div`
     border: 10px solid #9797fd;
     border-left: 10px solid #dfdfff;
   }
-`
+`;

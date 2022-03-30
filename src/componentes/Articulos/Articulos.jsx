@@ -1,8 +1,8 @@
-import { ArticulosContauler, ArticuloContent } from './styles'
+import { ArticulosContauler, ArticuloContent } from "./styles";
 
-import { LinkContainerArticle } from './styles'
+import { LinkContainerArticle } from "./styles";
 
-import { ReactComponent as LinkIcon } from '../assets/link.svg'
+import { ReactComponent as LinkIcon } from "../assets/link.svg";
 
 export default function Articulos() {
   return (
@@ -12,9 +12,10 @@ export default function Articulos() {
         <LinkContainerArticle>
           <LinkIcon />
           <a
-            href='https://www.linkedin.com/pulse/creando-un-componente-boton-con-react-typescript-y-sergio-ramirez/?trackingId=zpoDW1jFeq%2FVRAMeRJlYNA%3D%3D'
-            target='_blank'
-            rel='noreferrer'>
+            href="https://www.linkedin.com/pulse/creando-un-componente-boton-con-react-typescript-y-sergio-ramirez/?trackingId=zpoDW1jFeq%2FVRAMeRJlYNA%3D%3D"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>
               Creando un componente boton con React, Typescript,
               Styled-components y storybook
@@ -24,5 +25,5 @@ export default function Articulos() {
         <p>05-08-2021</p>
       </ArticuloContent>
     </ArticulosContauler>
-  )
+  );
 }
